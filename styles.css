@@ -1,4 +1,3 @@
-/* Reset some default browser styles */
 * {
     margin: 0;
     padding: 0;
@@ -20,15 +19,14 @@ header {
     padding: 20px 0;
 }
 
-header h1 {
-    font-size: 2.5rem;
+img {
+    max-width: 300px;
+    margin: 0 auto;
+    width: 100%;
+    height: auto;
 }
 
-header p {
-    font-size: 1.2rem;
-}
 
-/* Sidebar Navigation */
 nav {
     position: fixed;
     left: 0;
@@ -77,7 +75,7 @@ nav ul li a:hover {
     color: #fff;
 }
 
-/* Main Content */
+
 main {
     margin-left: 60px;
     padding: 20px;
@@ -97,7 +95,7 @@ main {
     margin-bottom: 20px;
 }
 
-/* Content for types of sinks */
+
 .content {
     display: inline-block;
     width: 30%;
